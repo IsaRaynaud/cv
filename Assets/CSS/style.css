@@ -13,18 +13,29 @@
     src: url(../fonts/Raleway-Italic.otf) format('opentype');
 }
 
+.global{
+    width: 1160px;
+    margin: 0 auto;
+}
+
 h1{
     font-family: "lato", sans-serif;
+    font-size: 24;
+    text-align: center;
+    color: white;
 }
 
 h2{
     font-family: "lato", sans-serif;
+    font-size: 16;
 }
 
 h3{
     font-family: "lato", sans-serif;
+    font-size: 16;
 }
 
 p{
     font-family: "raleway", sans-serif;
+    font-size: 12;
 }
