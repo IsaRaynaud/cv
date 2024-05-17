@@ -1,0 +1,33 @@
+footer{
+    background-color: #782221 ;
+    padding: 30px 30px 30px 15px;
+}
+
+.logos_SM{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#img_linkedin{
+    width: 20%;
+    height: 20%;
+}
+
+#img_x{
+    width: 20%;
+    height: 20%;
+}
+
+#img_github{
+    width: 20%;
+    height: 20%;
+}
+
+#update{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
