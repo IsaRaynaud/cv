@@ -2,40 +2,106 @@
 
 @font-face{
     font-family: "raleway";
-    src : url(../fonts/Raleway-Regular.woff);
-    src : url(../fonts/Raleway-Bold.woff);
-    src: url(../fonts/Raleway-Italic.woff);
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
     src: url(../fonts/Raleway-Bold.ttf) format('truetype');
     src: url(../fonts/Raleway-Italic.ttf) format('truetype');
-    src: url(../fonts/Raleway-Regular.otf) format('opentype');
-    src: url(../fonts/Raleway-Bold.otf) format('opentype');
-    src: url(../fonts/Raleway-Italic.otf) format('opentype');
-}
-
-.global{
-    width: 1160px;
-    margin: 0 auto;
 }
 
 h1{
     font-family: "lato", sans-serif;
-    font-size: 24;
+    font-size: 24 px;
     text-align: center;
     color: white;
 }
 
 h2{
     font-family: "lato", sans-serif;
-    font-size: 16;
+    font-size: 16px;
 }
 
 h3{
     font-family: "lato", sans-serif;
-    font-size: 16;
+    font-size: 16px;
 }
 
 p{
     font-family: "raleway", sans-serif;
-    font-size: 12;
+    font-size: 12px;
+}
+
+<!-- Je regroupe ici le smises en forme pour le header -->
+
+header{
+    background-color: #782221;
+    padding: 50px 30px 20px 30px;
+}
+
+figure{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.portrait{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px #dbc2a4,
+    15px 0px 25px white,
+    -15px 0px 25px whitesmoke;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "raleway bold";
+}
+
+<!-- Je regroupe ici le smises en forme pour le body -->
+
+address{
+    background-color: #2c1d27 ;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+<!-- Je regroupe ici le smises en forme pour le footer -->
+
+footer{
+    background-color: #782221 ;
+    padding: 30px 30px 30px 15px;
+}
+
+.logos_SM{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#img_linkedin{
+    width: 20%;
+    height: 20%;
+}
+
+#img_x{
+    width: 20%;
+    height: 20%;
+}
+
+#img_github{
+    width: 20%;
+    height: 20%;
+}
+
+#update{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
 }
