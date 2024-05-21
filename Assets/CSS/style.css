@@ -33,26 +33,36 @@ p{
     font-size: 13px;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
 /* Mise en forme pour le header*/
 header{
     background-color: #782221;
     padding: 50px 30px 20px 30px;
 }
 
-figure{
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-}
 .portrait{
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     border-radius: 50%;
     box-shadow: 0px 0px 25px #dbc2a4,
     15px 0px 25px white,
     -15px 0px 25px whitesmoke;
+}
+
+.portrait:hover{
+    cursor: zoom-in;
 }
 
 #subtitle{
@@ -73,6 +83,10 @@ address{
     justify-content: space-between;
 }
 
+address:hover{
+    cursor: pointer;
+}
+
 /* Mise en forme du Footer */
 
 footer{
@@ -86,6 +100,10 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.logos_SM:hover{
+    cursor: pointer;
 }
 
 #update{
