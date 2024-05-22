@@ -37,12 +37,12 @@ p{
 }
 
 a{
-    color: #fff;
+    color: #782221;
     text-decoration: none;
 }
 
 a:hover{
-    color: #fff;
+    color: #782221;
     text-decoration: underline;
 }
 
@@ -80,10 +80,17 @@ header{
 address{
     background-color: #2c1d27 ;
     padding: 10px 30px 10px 30px;
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+address a{
+    color: #fff;
+}
+
+address a:hover{
+    color: #fff;
 }
 
 address:hover{
@@ -125,6 +132,8 @@ aside p{
 .experiences:hover{
     border-right: 5px solid #782221;
 }
+
+
 
 /* Ci-dessous : mise en forme du Footer */
 
