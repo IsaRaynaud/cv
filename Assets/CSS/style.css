@@ -18,20 +18,13 @@ h2{
     font-family: "lato", sans-serif;
     font-size: 16px;
     background-color: #dbc2a4;
-    padding: 5px 3px;
+    padding: 5px 3px 3px;
     border-left: 5px solid #782221;
 }
 
 h3{
     font-family: "lato", sans-serif;
     font-size: 14px;
-}
-
-h4{
-    font-family: "lato", sans-serif;
-    font-size: 16px;
-    background-color: #dbc2a4;
-    padding: 10px 3px;
 }
 
 p{
@@ -48,7 +41,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/* Mise en forme pour le header*/
+/* Ci-dessous : mise en forme pour le header*/
 header{
     background-color: #782221;
     padding: 50px 30px 20px 30px;
@@ -77,7 +70,7 @@ header{
     font-family: "lato bold";
 }
 
-/* Mise en forme du Body - section */
+/* Ci-dessous : mise en forme du Main - adresse */
 
 address{
     background-color: #2c1d27 ;
@@ -92,19 +85,46 @@ address:hover{
     cursor: pointer;
 }
 
-/* Mise en forme du Body - aside */
+/* Ci-dessous : mise en forme du Main - section */
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 aside{
     background-color: #782221;
     padding: 10px 5px;
-    font-style: bold #fff;
+    grid-column: 1 / span 1;
+    font-style: bold;
+    color: #fff;
 }
 
-/* Mise en forme du Footer */
+h4{
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #dbc2a4;
+    padding: 10px 3px;
+}
+
+aside p{
+    text-align: justify;
+    text-indent: 10%;
+}
+
+#parcours{
+    padding-left: 30px;
+}
+
+/* Ci-dessous : mise en forme du Footer */
 
 footer{
     background-color: #782221 ;
     padding: 30px 30px 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logos_SM{
@@ -122,5 +142,4 @@ footer{
 #update{
     color: white;
     font-size: 0.8em;
-    text-align: center;
 }
